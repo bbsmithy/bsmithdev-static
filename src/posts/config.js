@@ -1,4 +1,9 @@
 export const posts = {
+  "disqus-with-react-hooks": {
+    title: "Disqus embed with React custom hook",
+    date: "5th November 2019",
+    bg: "dev-bg-1.jpg"
+  },
   "fbr-find-branch": {
     title: "Bash: Git search and checkout branches function fbr",
     date: "20th November 2018",

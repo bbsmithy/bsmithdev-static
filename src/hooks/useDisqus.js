@@ -1,7 +1,7 @@
-import {useEffect} from 'react';
+import { useEffect } from 'react';
 
 
-const useScript = () => {
+const useScript = (url) => {
     useEffect(()=>{
 
         const disqus_config = function () {
@@ -17,7 +17,7 @@ const useScript = () => {
 
         dsq.type = 'text/javascript';
         dsq.async = true;
-        dsq.src = 'https://bsmithdev.disqus.com/embed.js';
+        dsq.src = url;
 
         (head || body).appendChild(dsq);
 

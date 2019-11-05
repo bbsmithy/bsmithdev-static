@@ -41,8 +41,6 @@ export const Post = props => {
     }
   } = props;
 
-  useScript();
-
   const { posts } = require("../posts/config");
   const { bg, title } = posts[postName];
 
@@ -57,9 +55,12 @@ export const Post = props => {
       console.log(e);
     }
   };
+  
   useEffect(() => {
     getMarkdown();
   }, []);
+
+  useScript('https://bsmithdev.disqus.com/embed.js');
 
   return (
     <div className="container content-view">
