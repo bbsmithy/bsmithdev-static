@@ -4,9 +4,9 @@ import {
   highlight,
   getLanguage,
   highlightAuto,
-  initHighlightingOnLoad,
   listLanguages
 } from "highlightjs";
+import useScript from "../hooks/useDisqus"
 
 const md = new Remarkable({
   highlight: function(str, lang) {
@@ -40,6 +40,8 @@ export const Post = props => {
       params: { postName }
     }
   } = props;
+
+  useScript();
 
   const { posts } = require("../posts/config");
   const { bg, title } = posts[postName];
@@ -80,10 +82,15 @@ export const Post = props => {
           <div class="row">
             <div className="col-lg-8 col-md-10 mx-auto">
               <div dangerouslySetInnerHTML={{ __html: html }}></div>
+              <div id="disqus_thread"></div>
             </div>
+            
           </div>
+          
         </div>
+        
       </article>
+      
     </div>
   );
 };

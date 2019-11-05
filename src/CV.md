@@ -34,7 +34,7 @@ I currently work on the frontend team for Flipdish, who offer a B2B online order
 I work on the self serivce portal with React.js and Redux for Flipdish's customers to manage their online restaurant.
 
 
-##### React.js Developer @ Clearstream - March 2019 to September 2019
+##### React.js Developer (Contract) @ Clearstream - March 2019 to September 2019
 After working at Cartrawler for nearly 2 years I decided to move to Cork city to work on Clearstream's Digitization project as a contract React.js developer. I worked on the frontend review dashboard for Clearstream's digitisation platform using React.js and Redux. The digitisation platform aims to digitise unstructured data about trades that Clearstream receives from various sources such as emails, faxes and partner FTP/Websites and feed Clearstream's backend systems. I worked closely with the backend team who built out a microservices architecture to process PDF resources and extract trade data using machine learning and template data extraction. I then decided to look for more permanent work in Dublin.
 
 ##### Software Engineer @ Cartrawler - August 2017 to March 2019
