@@ -7,8 +7,6 @@ const useScript = url => {
       this.page.identifier = window.location.search; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 
-    window.disqus_config = disqus_config;
-
     const dsq = document.createElement("script");
     const head = document.getElementsByTagName("head")[0];
     const body = document.getElementsByTagName("body")[0];
@@ -17,10 +15,10 @@ const useScript = url => {
     dsq.async = true;
     dsq.src = url;
 
-    (head || body).appendChild(dsq);
+    head.appendChild(dsq);
 
     return () => {
-      (head || body).removeChild(dsq);
+      head.removeChild(dsq);
     };
   }, []);
 };
