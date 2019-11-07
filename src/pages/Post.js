@@ -58,8 +58,9 @@ export const Post = props => {
 
   useEffect(() => {
     getMarkdown();
-    useScript("https://bsmithdev.disqus.com/embed.js");
   }, []);
+
+  useScript("https://bsmithdev.disqus.com/embed.js");
 
   return (
     <div className="container content-view">

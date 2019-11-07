@@ -1,10 +1,6 @@
 import React from "react";
-import useDisqus from "../hooks/useDisqus";
 
 export const Footer = () => {
-  
-  useDisqus('https://bsmithdev.disqus.com/embed.js');
-  
   return (
     <footer>
       <div className="container">
