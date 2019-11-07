@@ -6,7 +6,7 @@ import {
   highlightAuto,
   listLanguages
 } from "highlightjs";
-import useScript from "../hooks/useDisqus"
+import useScript from "../hooks/useDisqus";
 
 const md = new Remarkable({
   highlight: function(str, lang) {
@@ -55,12 +55,11 @@ export const Post = props => {
       console.log(e);
     }
   };
-  
+
   useEffect(() => {
     getMarkdown();
+    useScript("https://bsmithdev.disqus.com/embed.js");
   }, []);
-
-  useScript('https://bsmithdev.disqus.com/embed.js');
 
   return (
     <div className="container content-view">
@@ -85,13 +84,9 @@ export const Post = props => {
               <div dangerouslySetInnerHTML={{ __html: html }}></div>
               <div id="disqus_thread"></div>
             </div>
-            
           </div>
-          
         </div>
-        
       </article>
-      
     </div>
   );
 };
