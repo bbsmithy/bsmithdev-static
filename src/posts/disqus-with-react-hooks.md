@@ -40,7 +40,7 @@ useEffect(() => {
   getMarkdown();
 }, []);
 
-useScript("https://bsmithdev.disqus.com/embed.js");
+useDisqus("https://bsmithdev.disqus.com/embed.js");
 
 return (
   <div className="container content-view">
