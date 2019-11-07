@@ -1,30 +1,28 @@
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
+const useScript = url => {
+  useEffect(() => {
+    const disqus_config = function() {
+      this.page.url = window.location.url; // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = window.location.search; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
 
-const useScript = (url) => {
-    useEffect(()=>{
+    window.disqus_config = disqus_config;
 
-        const disqus_config = function () {
-            this.page.url = window.location.url;  // Replace PAGE_URL with your page's canonical URL variable
-            this.page.identifier = window.location.search; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
+    const dsq = document.createElement("script");
+    const head = document.getElementsByTagName("head")[0];
+    const body = document.getElementsByTagName("body")[0];
 
-        window.disqus_config = disqus_config;
+    dsq.type = "text/javascript";
+    dsq.async = true;
+    dsq.src = url;
 
-        const dsq = document.createElement('script');
-        const head = document.getElementsByTagName('head')[0];
-        const body = document.getElementsByTagName('body')[0];
+    (head || body).appendChild(dsq);
 
-        dsq.type = 'text/javascript';
-        dsq.async = true;
-        dsq.src = url;
+    return () => {
+      (head || body).removeChild(dsq);
+    };
+  }, []);
+};
 
-        (head || body).appendChild(dsq);
-
-        return () => {
-            (head || body).removeChild(dsq);
-        }
-    })
-}
-
-export default useScript
+export default useScript;
