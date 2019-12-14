@@ -1,4 +1,9 @@
 export const posts = {
+  "lessons-learnt-working-on-side-projects": {
+    title: "Lessons learnt from side projects",
+    date: "14th December 2019",
+    bg: "code_bg.jpg"
+  },
   "disqus-with-react-hooks": {
     title: "Disqus embed with React custom hook",
     date: "5th November 2019",
