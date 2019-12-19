@@ -7,7 +7,7 @@ Here are some lessons I've learnt about working on side projects over the last f
 
 ### Build something you feel is worthwhile
 
-It will take a lot of time and effort to build something great. Because of this your motivation for your project will likely be volatile. In order to actually follow through with your idea you will need to feel like theres worthwhile challenge to tackle. A good question to ask is "Can I see my self working on this 5-10 years", this way you can view the project as a life decision, rather than just a cool thing to build and really gauge weather its something your willing to commit to in the long term.
+It will take a lot of time and effort to build something great. Because of this your motivation for your project will likely be volatile. In order to actually follow through with your idea you will need to feel like theres worthwhile challenge to tackle. A good question to ask is "Can I see my self working on this 5-10 years", this way you can view the project as a life decision, rather than just a cool thing to build and really gauge whether its something your willing to commit to in the long term.
 
 A good starting point for thinking about things to build that you feel are worthwhile, is to try and think of software that you personally want. If you really want it then it's likely you feel that it's worthwhile thing to build over the coming years.
 
