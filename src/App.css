@@ -470,6 +470,6 @@ footer .copyright {
   padding: 25px 35px;
 }
 
-#disqus_thred {
-  max-width: 500px;
+#disqus_thread {
+  margin-top: 100px;
 }
