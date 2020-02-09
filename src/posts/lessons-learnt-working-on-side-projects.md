@@ -1,6 +1,6 @@
-Over the last few years i've worked on 4 side projects. One was a personal trainer website for matching you with personal trainers in Dublin (not released). The second one was a website/image archive for my old school [https://benildus-college.firebaseapp.com/](<(https://www.npmjs.com/package/picky-scrape)>) with React and Firebase. The third was a web app for organising secondary schools online study resources (never released). The fourth was a joint venture building a car buy and sell app with a tinder like interface. I worked on that for about a year and I left the project during summer 2019 on good terms. The guys kept working on the project and have done a great job releasing it recently with a great response from users. You can check that out here [https://www.sweep.ie/](https://www.sweep.ie/).
+Over the last few years i've worked on 4 side projects. One was a personal trainer website for matching you with personal trainers in Dublin (not released). The second one was a website/image archive for my old school [https://benildus-college.firebaseapp.com/](<(https://www.npmjs.com/package/picky-scrape)>) with React and Firebase. The third was a web app for organizing secondary schools online study resources (never released). The fourth was a joint venture building a car buy and sell app with a tinder like interface. I worked on that for about a year and I left the project during summer 2019 on good terms. The guys kept working on the project and have done a great job releasing it recently with a great response from users. You can check that out here [https://www.sweep.ie/](https://www.sweep.ie/).
 
-I'm currently working on a project called devkeep.io that helps developers build their personal online knowledge base.
+I'm currently working on a project called devkeep that helps developers organise their online research/learning.
 
 Here are some lessons I've learnt about working on side projects over the last few years.
 
@@ -20,7 +20,7 @@ When developing a new product (not prototype) its often tempting to do whats qui
 
 ### Refactor early and often
 
-Theres a famous saying that I think is sometimes misinterpreted "Move fast and break things". This does not mean write shite code! You can write good code really quickly if you make the extra effort to refactor often. If you write something just to get it working thats grand, but once it's working don't just leave that there tidy it up! This will make your project feel like a sturdy ship moving forward rather than a stack of dinner dishes you're struggling to keep stable. This will also prevent any developers you hire in the future from resenting you for creating a bad codebase, and will speed up any new features they look to implement.
+Theres a famous saying that I think is sometimes misinterpreted "Move fast and break things". This does not mean write shite code! You can write good code really quickly if you make the extra effort to refactor often. If you write something just to get it working thats grand, but once it's working don't just leave that there tidy it up! This will make your project feel like a sturdy ship moving forward rather than a stack of dinner dishes you're struggling to keep stable. This will also make developers you hire in future enjoy working in your codebase, and will speed up any new features they look to implement.
 
 ### No Zero Days
 
@@ -28,8 +28,14 @@ It's really tough to juggle a full time job with a side project. When you come h
 
 ### Use Postman for API docs
 
-Use postman to test your API as you build it, this way you build the backend and documentation at the same time. If you've ever worked as a FE dev somewhere where there is little to no documentation for the API you'll realise how important it is. You can waste a lot of time trying to figure out how to interact with an API. Sometimes you just have to read the backend code to figure out what to send and why. In the early days when its just you working on your project this is fine because you know whats going on front to backend in your own head. Imagine you are a FE dev just off the street and you've been roped into working on your project, the aim is for them to be able to start implementing new features straight away without having to ask the old wizard in the corner about that dodgy controller!
+Use postman to test your API as you build it, this way you build the backend and documentation at the same time. Also when your ready you can use Newman on top of Postman for regression testing.
+
+If you've ever worked as a FE dev somewhere where there is little to no documentation for the API you'll realise how important it is. You can waste a lot of time trying to figure out how to interact with an API. Sometimes you just have to read the backend code to figure out what to send and why. In the early days when its just you working on your project this is fine because you know whats going on front to backend in your own head.
+
+Imagine you are a FE dev just off the street and you've been roped into working on your project, the aim is for them to be able to start implementing new features straight away without having to ask the old wizard in the corner about that dodgy controller!
 
 ### Use Trello to organise work
 
-Trello is great! It helps you organise future features down to small bugs and priortize your work. The column layout I use is Backlog, Todo, This week, In Progress, Done. The 'This week' column I think is really important for side projects because it helps you focus on incremental progress.
+Trello is great! It helps you organise future features down to small bugs and prioritise your work. The column layout I use is Backlog, Todo, This week, In Progress, Done. The 'This week' column I think is really important for side projects because it helps you focus on incremental progress.
+
+Thanks for reading hopefully this helps you with your side projects.
