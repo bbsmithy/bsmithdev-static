@@ -26,18 +26,21 @@ export const Navbar = () => {
               </button>
               <div className="collapse navbar-collapse" id="navbarResponsive">
                 <ul className="navbar-nav ml-auto">
-                  <li className="nav-item">
-                    <a className="nav-link" href="/">
+                  <li className="nav-item" data-toggle="collapse" data-target="#navbarResponsive">
+                    <Link 
+                      className="nav-link"
+                      to="/"
+                    >
                       Articles
-                    </a>
+                    </Link>
                   </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="https://github.com/bbsmithy" target="blank">
+                  <li className="nav-item" data-toggle="collapse" data-target="#navbarResponsive">
+                    <Link className="nav-link" to="/work">
                       Work
-                    </a>
+                    </Link>
                   </li>
-                  <li className="nav-item">
-                    <Link className="nav-link" to="/cv">
+                  <li className="nav-item" data-toggle="collapse" data-target="#navbarResponsive">
+                    <Link className="nav-link" to="/cv" >
                       CV
                     </Link>
                   </li>
