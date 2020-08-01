@@ -33,7 +33,6 @@ function App() {
           <Route path="/about"></Route>
           <Route path="/cv" component={CV}/>
           <Route path="/post/:postName" component={Post} />
-          <Route path="/work" component={Work} />
           <Route path="/devkeep-md-editor" component={DevkeepMDEditor} />
           <Route path="/">
             <Home />

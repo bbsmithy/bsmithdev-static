@@ -35,9 +35,9 @@ export const Navbar = () => {
                     </Link>
                   </li>
                   <li className="nav-item" data-toggle="collapse" data-target="#navbarResponsive">
-                    <Link className="nav-link" to="/work">
+                    <a className="nav-link" href="https://github.com/bbsmithy" target="blank">
                       Work
-                    </Link>
+                    </a>
                   </li>
                   <li className="nav-item" data-toggle="collapse" data-target="#navbarResponsive">
                     <Link className="nav-link" to="/cv" >
